@@ -1,38 +1,310 @@
-.App {
+body {
+
+  background-color: rgb(26, 24, 24);
+  color: white;
+
+}
+
+
+
+/**
+
+Header
+
+*/
+
+.topo {
+
+  display: flex;
+  flex-direction:column; 
+  align-items:flex-end;
+  background-color: red;
+  width: auto;
+  height: auto;
+  margin: 20px;
+
+
+
+
+}
+
+ul {
+
+  list-style-type: none;
+  position: absolute;
+  display: inline; 
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  color: white;
+ 
+}
+
+li{
+
+
+  display: inline-block;
+  min-width: 1em;
+  margin: 0 0.5em;
+
+
+
+
+}
+
+a:link,
+a:hover {
+
+  text-decoration: none;
+  color: yellow;
+
+
+}
+
+
+.logo {
+
+  
+  width: 100%;
+
+
+
+
+}
+
+
+p{
+
+position: absolute;
+font-size: 30px;
+font-family: Arial, Helvetica, sans-serif;
+margin-right: 1200px;
+color: white;
+
+
+}
+
+
+/**
+
+Lado
+
+*/
+
+.lado {
+
+
+ 
+  align-items: center;
   text-align: center;
+  background-color: black;
+  margin: 20px;
+  width: 300px;
+  height: 1000px;
+
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.banda{
+
+border-radius: 100%;
+width: 220px;
+height: 220px;
+margin: 50px;
+
+
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.ladofrase{
+
+
+position: absolute;
+margin-top: 20px;
+height: auto;
+
+
+
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/**
+
+Main
+
+*/
+
+
+.main {
+
+
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: black;
+  width: auto;
+  margin: 20px;
+  height: 1000px;
+  margin-left: 350px;
+  margin-top: -1020px;
+
+
+
+
+
+
+
+
 }
 
-.App-link {
-  color: #61dafb;
+.shows{
+
+position: absolute;
+margin-top: 100px;
+margin-left: 250px;
+
+
+
+
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.caixa1{
+
+position: absolute;
+border: 1px solid white;
+width: 500px;
+height: 200px;
+margin-left: -70px;
+
+
+
+}
+
+.caixa2{
+
+  position: absolute;
+  border: 1px solid white;  
+  width: 500px;
+  height: 200px;
+  margin-left: 500px;
+  
+  
+  
   }
-  to {
-    transform: rotate(360deg);
+
+/**
+
+Footer
+
+*/
+
+
+.footer {
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  margin: 20px;
+  height: 200px;
+  width: auto;
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+
+  
+  .lado {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: 500px;
+
+
+  }  
+
+  .main {
+
+
+    width: auto;
+    height: 600px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+
+
   }
+
+  .caixa1{
+
+    position: absolute;
+    margin-left:314px ;
+    width: 320px;
+
+
+
+
+  }
+
+  .caixa2{
+
+    
+    margin-left:314px ;
+    margin-top: 220px;
+    width: 320px;
+
+
+
+
+  }
+
+  .footer {
+
+    width: auto;
+    height: 200px;
+    
+
+
+  }
+
+  .topo{
+
+    height: auto;
+
+
+
+  }
+
+  ul{
+
+   font-size: 10px;
+   margin: 20px;
+
+
+
+
+  }
+
+  .ladofrase{
+
+
+    
+    margin-left: -2000px;
+
+
+
+  }
+
+
 }
