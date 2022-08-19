@@ -2,6 +2,7 @@ body {
 
   background-color: rgb(26, 24, 24);
   color: white;
+  height: auto;
 
 }
 
@@ -16,8 +17,8 @@ Header
 .topo {
 
   display: flex;
-  flex-direction:column; 
-  align-items:flex-end;
+  flex-direction: column;
+  align-items: flex-end;
   background-color: red;
   width: auto;
   height: auto;
@@ -32,15 +33,15 @@ ul {
 
   list-style-type: none;
   position: absolute;
-  display: inline; 
+  display: inline;
   padding: 10px;
   font-family: 'Times New Roman', Times, serif;
   font-size: 30px;
   color: white;
- 
+
 }
 
-li{
+li {
 
 
   display: inline-block;
@@ -64,7 +65,7 @@ a:hover {
 
 .logo {
 
-  
+
   width: 100%;
 
 
@@ -73,13 +74,13 @@ a:hover {
 }
 
 
-p{
+p {
 
-position: absolute;
-font-size: 30px;
-font-family: Arial, Helvetica, sans-serif;
-margin-right: 1200px;
-color: white;
+  position: absolute;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 1200px;
+  color: white;
 
 
 }
@@ -94,7 +95,7 @@ Lado
 .lado {
 
 
- 
+
   align-items: center;
   text-align: center;
   background-color: black;
@@ -105,24 +106,27 @@ Lado
 
 }
 
-.banda{
+.banda {
 
-border-radius: 100%;
-width: 220px;
-height: 220px;
-margin: 50px;
+  border-radius: 100%;
+  width: 220px;
+  height: 220px;
+  margin: 40px;
 
 
 
 }
 
 
-.ladofrase{
+.ladofrase {
 
 
-position: absolute;
-margin-top: 20px;
-height: auto;
+  position: absolute;
+  font-size: 20px;
+  margin-left: 40px;
+  margin-top: 20px;
+  width: 220px;
+
 
 
 
@@ -158,41 +162,141 @@ Main
 
 }
 
-.shows{
-
-position: absolute;
-margin-top: 100px;
-margin-left: 250px;
+.shows {
 
 
+  margin-top: 100px;
+  margin-left: 250px;
 
 
-  
-}
-
-.caixa1{
-
-position: absolute;
-border: 1px solid white;
-width: 500px;
-height: 200px;
-margin-left: -70px;
 
 
 
 }
 
-.caixa2{
+.caixa1 {
 
   position: absolute;
-  border: 1px solid white;  
-  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid white;
+  width: 400px;
   height: 200px;
-  margin-left: 500px;
-  
-  
-  
-  }
+  margin-left: -30px;
+
+
+
+}
+
+.data1 {
+
+
+  margin-left: 1200px;
+  margin-top: 120px;
+
+
+
+}
+
+.caixa2 {
+
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid white;
+  width: 400px;
+  height: 200px;
+  margin-left: 575px;
+
+
+
+}
+
+.caixa3 {
+
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid white;
+  width: 400px;
+  height: 200px;
+  margin-left: -30px;
+  margin-top: 300px;
+
+
+
+}
+
+.data1 {
+
+
+  margin-left: 1200px;
+  margin-top: 120px;
+
+
+
+}
+
+.caixa4 {
+
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid white;
+  width: 400px;
+  height: 200px;
+  margin-left: 575px;
+  margin-top: 300px;
+
+
+
+}
+
+.caixa5 {
+
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid white;
+  width: 400px;
+  height: 200px;
+  margin-left: -30px;
+  margin-top: 600px;
+
+
+
+}
+
+.data1 {
+
+
+  margin-left: 1200px;
+  margin-top: 120px;
+
+
+
+}
+
+.caixa6 {
+
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid white;
+  width: 400px;
+  height: 200px;
+  margin-left: 575px;
+  margin-top: 600px;
+
+
+
+}
 
 /**
 
@@ -205,12 +309,136 @@ Footer
 
 
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
   background-color: black;
   margin: 20px;
-  height: 200px;
+  height: 500px;
   width: auto;
+
+
+
+
+
+
+}
+
+.informacao1 {
+
+
+  position: absolute;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  color: white;
+  margin-left: 600px;
+  margin-top: 180px;
+  width: 800px;
+  background-color: black;
+  box-shadow: 20px 20px 5px lightblue;
+
+}
+
+.titulo {
+
+
+  position: absolute;
+  margin-left: 850px;
+  margin-top: 70px;
+
+
+
+
+}
+
+.titulo2 {
+
+
+  position: absolute;
+  margin-left: 770px;
+  margin-top: 430px;
+
+
+
+
+}
+
+.titulo3 {
+
+
+  position: absolute;
+  margin-left: 700px;
+  margin-top: 320px;
+
+
+
+
+}
+
+.foto1 {
+
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  margin: 50px;
+  margin-top: 70px;
+  box-shadow: 20px 20px 5px lightblue;
+
+
+
+}
+
+.foto2 {
+
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  margin-left: 800px;
+  margin-top: 380px;
+
+
+
+
+}
+.foto3 {
+
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  margin-left: 850px;
+  margin-top: 380px;
+
+
+
+
+}
+.foto4 {
+
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  margin-left: 900px;
+  margin-top: 380px;
+
+
+
+
+}
+.foto5 {
+
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  margin-left: 950px;
+  margin-top: 380px;
+
+
+
+
+}
+.redes{
+
+position: absolute;
+  margin-left: 160px;
 
 
 
@@ -222,7 +450,8 @@ Footer
 @media screen and (max-width: 480px) {
 
 
-  
+
+
   .lado {
 
     display: flex;
@@ -232,13 +461,13 @@ Footer
     height: 500px;
 
 
-  }  
+  }
 
   .main {
 
 
     width: auto;
-    height: 600px;
+    height: 1470px;
     margin-top: 20px;
     margin-left: 20px;
 
@@ -246,10 +475,11 @@ Footer
 
   }
 
-  .caixa1{
+
+  .caixa1 {
 
     position: absolute;
-    margin-left:314px ;
+    margin-left: 314px;
     width: 320px;
 
 
@@ -257,11 +487,59 @@ Footer
 
   }
 
-  .caixa2{
+  .caixa2 {
 
-    
-    margin-left:314px ;
+    position: absolute;
+    margin-left: 314px;
     margin-top: 220px;
+    width: 320px;
+
+
+
+
+  }
+
+  .caixa3 {
+
+    position: absolute;
+    margin-left: 314px;
+    width: 320px;
+    margin-top: 680px;
+
+
+
+
+  }
+
+  .caixa4 {
+
+    position: absolute;
+    margin-left: 314px;
+    margin-top: 450px;
+    width: 320px;
+
+
+
+
+  }
+
+  .caixa5 {
+
+    position: absolute;
+    margin-left: 314px;
+    width: 320px;
+    margin-top: 910px;
+
+
+
+
+  }
+
+  .caixa6 {
+
+    position: absolute;
+    margin-left: 314px;
+    margin-top: 1140px;
     width: 320px;
 
 
@@ -273,12 +551,13 @@ Footer
 
     width: auto;
     height: 200px;
-    
+    margin-top: 20px;
+
 
 
   }
 
-  .topo{
+  .topo {
 
     height: auto;
 
@@ -286,20 +565,20 @@ Footer
 
   }
 
-  ul{
+  ul {
 
-   font-size: 10px;
-   margin: 20px;
+    font-size: 10px;
+    margin: 20px;
 
 
 
 
   }
 
-  .ladofrase{
+  .ladofrase {
 
 
-    
+
     margin-left: -2000px;
 
 
